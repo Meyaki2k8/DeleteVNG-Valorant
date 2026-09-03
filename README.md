@@ -24,6 +24,14 @@
 
 ---
 
+## ⚠️ Tuyên bố miễn trừ trách nhiệm (Disclaimer)
+
+- **Mục đích sử dụng:** Công cụ này được phát triển như một giải pháp hỗ trợ tự động hóa thao tác người dùng dựa trên mẹo dọn dẹp file thủ công. Tác giả **không sở hữu, phát triển hoặc can thiệp** vào mã nguồn của VALORANT hay các dịch vụ liên quan đến Riot Games và VNG.
+- **Rủi ro tài khoản:** Mặc dù việc xóa các file logo chỉ tác động đến tài nguyên hiển thị tạm thời của client game, việc sử dụng các phần mềm/script hỗ trợ tự động hóa bên ngoài **hoàn toàn do người dùng tự chịu trách nhiệm**.
+- **Miễn trừ trách nhiệm:** Tác giả **KHÔNG** chịu trách nhiệm cho bất kỳ tổn thất, thiệt hại hoặc hành động kỷ luật nào (bao gồm nhưng không giới hạn ở việc khóa tài khoản, ban tài khoản vĩnh viễn/tạm thời) từ nhà phát hành game (Riot Games / VNG) phát sinh từ việc sử dụng công cụ này.
+
+---
+
 ## ✨ Tính năng nổi bật
 
 - ⚡ **Tự động hóa 100%:** Phát hiện tiến trình game khởi chạy và tự động xóa 4 file logo VNG tức thì.
