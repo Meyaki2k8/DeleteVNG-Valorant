@@ -1,32 +1,45 @@
-# DeleteVNG Valorant (VALORANT VNG Logo Manager) 🚀
+# DeleteVNG Valorant 🚀
 
 ![AutoHotkey v2](https://img.shields.io/badge/AutoHotkey-v2.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-**DeleteVNG Valorant** là công cụ tự động hóa siêu nhẹ được phát triển bằng AutoHotkey v2, giúp người chơi VALORANT tại Việt Nam tự động dọn dẹp các tệp tin Logo/Splash Screen của nhà phát hành VNG mỗi khi mở game. Nhờ đó, game sẽ khởi động thẳng vào giao diện chính nhanh hơn và mượt mà hơn.
+**DeleteVNG Valorant** là công cụ tự động hóa siêu nhẹ được viết bằng AutoHotkey v2, giúp tự động thực hiện thủ thuật xóa file logo VNG ngay khi game VALORANT vừa khởi chạy. Công cụ giúp bỏ qua màn hình logo VNG, hỗ trợ mở game nhanh hơn và bật hiệu ứng **máu vàng**.
+
+---
+
+## 💡 Ý tưởng (Credits)
+
+Ứng dụng này được phát triển dựa trên mẹo thủ công được chia sẻ bởi YouTuber **Leminh**:
+- **Video gốc:** [(VALORANT) CÁCH HIỆN MÁU VÀNG + TẮT LOGO VNG KHÔNG DÙNG PHẦN MỀM THỨ 3](https://www.youtube.com/watch?v=dQ7plD9cv3I)
+- **Tác giả:** Leminh
+
+### 📌 Nguyên lý hoạt động từ Video:
+1. Mở thư mục cài đặt game tại đường dẫn `...\VALORANT\live\ShooterGame\Content\Paks` [00:00:26].
+2. Bấm nút **Play** trên Riot Client [00:00:42].
+3. Ngay khi nút Play chuyển trạng thái sang *Playing* hoặc cửa sổ khởi động xuất hiện, lập tức xóa 4 file logo VNG (`VNGLogo-WindowsClient.*`) [00:00:49].
+4. **Kết quả:** Bỏ qua Logo nhà phát hành VNG và kích hoạt thành công hiệu ứng máu vàng trong game [00:01:00].
+
+👉 **Ứng dụng này giúp bạn tự động canh thời điểm chuẩn xác và dọn dẹp file tự động mỗi khi mở game mà không cần phải thao tác thủ công phức tạp!**
 
 ---
 
 ## ✨ Tính năng nổi bật
 
-- ⚡ **Tự động hóa hoàn toàn (Automation):** Tự động phát hiện khi tiến trình VALORANT khởi chạy và xóa các tệp logo VNG ngay lập tức.
-- ⏱️ **Tùy chỉnh thời gian hoãn (Launch Delay):** Cho phép đặt độ trễ (delay seconds) trước khi xóa file để đảm bảo tính ổn định trên mọi cấu hình máy.
-- 🎨 **Quản lý Theme thông minh (Dark / Light / Auto):**
-  - Mặc định **Auto-Detect** tự động chuyển màu sắc giao diện theo chuẩn Theme của Windows (Light / Dark Mode).
-  - Cho phép người dùng chuyển đổi thủ công giữa `⚙ Auto`, `🌙 Dark Mode` và `☀️ Light Mode`.
-- 🚀 **Khởi động cùng Windows & Chạy ngầm (System Tray):**
-  - Hỗ trợ tùy chọn tự động mở cùng hệ điều hành.
-  - Thu nhỏ xuống khay hệ thống (Tray Icon) giúp màn hình làm việc luôn gọn gàng.
-- 🔄 **Tự động kiểm tra bản cập nhật (Auto-Update Check):** Tự động kiểm tra phiên bản mới từ GitHub Releases qua kết nối HTTP bất đồng bộ không gây giật lag.
-- 🔔 **Thông báo Toast nhẹ nhàng:** Thay thế toàn bộ hộp thoại thông báo cắt ngang bằng Toast (`TrayTip`) góc màn hình.
-- 🧹 **Tối ưu tài nguyên cực tốt:** Sử dụng cơ chế bất đồng bộ (Non-blocking Timer) và giải phóng RAM tự động (`EmptyWorkingSet`), chiếm dưới **10 MB RAM**.
+- ⚡ **Tự động hóa 100%:** Phát hiện tiến trình game khởi chạy và tự động xóa 4 file logo VNG tức thì.
+- 🩸 **Hiện máu vàng & Tắt Logo VNG:** Tự động áp dụng thủ thuật giúp vào game nhanh hơn và hiển thị hiệu ứng máu vàng.
+- ⏱️ **Tùy chỉnh Launch Delay:** Cho phép tùy chỉnh độ trễ (0s, 1s...) phù hợp với từng cấu hình máy.
+- 🚀 **Chạy ngầm & Khởi động cùng Windows:**
+  - Thu nhỏ xuống khay hệ thống (System Tray).
+  - Tự động bật cùng hệ điều hành.
+- 🔄 **Auto-Update Check:** Tự động kiểm tra bản cập nhật mới nhất từ GitHub qua kết nối bất đồng bộ.
+
 
 ---
 
 ## 📂 Các tệp tin được xử lý
 
-Ứng dụng sẽ dọn dẹp 4 tệp tin logo VNG trong thư mục `...\VALORANT\live\ShooterGame\Content\Paks`:
+Công cụ sẽ dọn dẹp 4 tệp tin trong thư mục `...\ShooterGame\Content\Paks` [00:00:26]:
 - `VNGLogo-WindowsClient.pak`
 - `VNGLogo-WindowsClient.sig`
 - `VNGLogo-WindowsClient.ucas`
@@ -37,25 +50,25 @@
 ## 🛠️ Hướng dẫn cài đặt & Sử dụng
 
 ### Dành cho người dùng (File .exe)
-1. Tải về phiên bản mới nhất từ mục **[Releases](../../releases)**.
-2. Giải nén và chạy tệp `DeleteVNGValorant.exe` dưới quyền Administrator.
-3. Chọn đường dẫn thư mục `Paks` của VALORANT (nếu ứng dụng chưa tự phát hiện).
-4. Nhấn **Minimize to tray** hoặc đóng cửa sổ, ứng dụng sẽ tự chạy ngầm và xử lý khi bạn bật game.
+1. Tải về phiên bản mới nhất tại mục **[Releases](../../releases)**.
+2. Giải nén và chạy tệp `DeleteVNGValorant.exe` dưới quyền **Administrator**.
+3. Đảm bảo đường dẫn thư mục `Paks` chính xác.
+4. Tích chọn **Minimize to tray** & **Start with Windows** để ứng dụng tự động chạy ngầm xử lý mỗi khi bạn bật game.
 
-### Dành cho Lập trình viên (Chạy từ Mã nguồn)
-1. Cài đặt **[AutoHotkey v2.0](https://www.autohotkey.com/)** hoặc mới hơn.
-2. Tải mã nguồn `.ahk` từ Repository này.
-3. Chạy trực tiếp tệp script `.ahk`.
+### Dành cho Lập trình viên
+1. Cài đặt môi trường **[AutoHotkey v2.0+](https://www.autohotkey.com/)**.
+2. Chạy trực tiếp script `DeleteVNGValorant.ahk`.
 
 ---
 
 ## 🛡️ Yêu cầu hệ thống
 
 - **HĐH:** Windows 10 / Windows 11 (64-bit).
-- **Quyền:** Quyền Quản trị viên (Administrator) để xóa file trong thư mục ổ đĩa Game.
+- **Quyền:** Administrator (để cấp quyền xóa file trong thư mục ổ đĩa game).
 
 ---
 
 ## 📜 Giấy phép (License)
 
-Dự án được phân phối dưới giấy phép [MIT License](LICENSE).
+Dự án được phân phối dưới giấy phép [MIT License](LICENSE).  
+*Special thanks to YouTuber **Leminh** for the original trick idea!*
