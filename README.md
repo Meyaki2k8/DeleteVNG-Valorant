@@ -36,7 +36,7 @@
 
 ## 📂 Các tệp tin được xử lý
 
-Công cụ sẽ dọn dẹp 4 tệp tin trong thư mục `...\ShooterGame\Content\Paks` [00:00:26]:
+Công cụ sẽ dọn dẹp 4 tệp tin trong thư mục `...\ShooterGame\Content\Paks`
 - `VNGLogo-WindowsClient.pak`
 - `VNGLogo-WindowsClient.sig`
 - `VNGLogo-WindowsClient.ucas`
