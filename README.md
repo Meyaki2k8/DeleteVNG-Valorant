@@ -15,10 +15,10 @@
 - **Tác giả:** Leminh
 
 ### 📌 Nguyên lý hoạt động từ Video:
-1. Mở thư mục cài đặt game tại đường dẫn `...\VALORANT\live\ShooterGame\Content\Paks` [00:00:26].
-2. Bấm nút **Play** trên Riot Client [00:00:42].
-3. Ngay khi nút Play chuyển trạng thái sang *Playing* hoặc cửa sổ khởi động xuất hiện, lập tức xóa 4 file logo VNG (`VNGLogo-WindowsClient.*`) [00:00:49].
-4. **Kết quả:** Bỏ qua Logo nhà phát hành VNG và kích hoạt thành công hiệu ứng máu vàng trong game [00:01:00].
+1. Mở thư mục cài đặt game tại đường dẫn `...\VALORANT\live\ShooterGame\Content\Paks`
+2. Bấm nút **Play** trên Riot Client
+3. Ngay khi nút Play chuyển trạng thái sang *Playing* hoặc cửa sổ khởi động xuất hiện, lập tức xóa 4 file logo VNG (`VNGLogo-WindowsClient.*`)
+4. **Kết quả:** Bỏ qua Logo nhà phát hành VNG và kích hoạt thành công hiệu ứng máu vàng trong game
 
 👉 **Ứng dụng này giúp bạn tự động canh thời điểm chuẩn xác và dọn dẹp file tự động mỗi khi mở game mà không cần phải thao tác thủ công phức tạp!**
 
