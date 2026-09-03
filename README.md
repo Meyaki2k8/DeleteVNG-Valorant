@@ -29,9 +29,6 @@
 - ⚡ **Tự động hóa 100%:** Phát hiện tiến trình game khởi chạy và tự động xóa 4 file logo VNG tức thì.
 - 🩸 **Hiện máu vàng & Tắt Logo VNG:** Tự động áp dụng thủ thuật giúp vào game nhanh hơn và hiển thị hiệu ứng máu vàng.
 - ⏱️ **Tùy chỉnh Launch Delay:** Cho phép tùy chỉnh độ trễ (0s, 1s...) phù hợp với từng cấu hình máy.
-- 🚀 **Chạy ngầm & Khởi động cùng Windows:**
-  - Thu nhỏ xuống khay hệ thống (System Tray).
-  - Tự động bật cùng hệ điều hành.
 - 🔄 **Auto-Update Check:** Tự động kiểm tra bản cập nhật mới nhất từ GitHub qua kết nối bất đồng bộ.
 
 
